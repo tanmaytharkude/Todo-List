@@ -1,0 +1,38 @@
+/* Style for list items */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+  padding: .5rem;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+
+}
+/* Style the button */
+button {
+  background-color: #fff23e; 
+  border: none; 
+  color: rgb(0, 0, 0); 
+  padding: 10px 18px;  
+  display: inline-block; 
+  margin-left: 1rem!important; 
+  cursor: pointer; 
+  border-radius: .5rem!important;
+  font-size: 1rem!important;
+}
+button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+/* Style for completed items */
+li.done {
+  text-decoration: line-through;
+}
+body{
+  background: radial-gradient(circle, rgb(0, 68, 255), rgb(8, 255, 28));
+  color: #fff;
+}
